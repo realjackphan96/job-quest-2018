@@ -34,12 +34,17 @@ In case you don't know who the heck is Chuck Norris. See his statement.
 ### Front-end Questions
 
 1. Please explain a situation that using Redux to manage application state is more helpful than original React's state.
+- When you need to track changes to state, log how the state is changing
 
 2. Why do we need "Server-Side Rendering". Please explain.
+- It allows the side to load faster, which can create good user experience, and overall SEO. SSR is used to fetch data and pre-populate a page with custom content, leveraging the server’s reliable internet connection.
 
 3. Explain the differences of `null` and `undefined`
+- Null means an empty or non-existent value. Null is assigned, and explicitly means nothing.
+- Undefined means a variable has been declared, but the value of that variable has not yet been defined.
 
 4. Tell us the benefit of using ESLint.
+- Used in white-box testing to find problematic patterns or code that doesn’t adhere to certain style guidelines. 
 
 ## Back-End
 
